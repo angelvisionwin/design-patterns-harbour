@@ -5,8 +5,10 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 
 #### Patrones creacionales
 - [Singleton], la única instancia de una clase
+- [Builder], cómo se crea un objeto compuesto
 
 
 
 [Singleton]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/singleton
+[Builder]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/builder
 
