@@ -44,5 +44,25 @@
         "${workspaceFolder}\\"
       ]
     },
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "adapter debug",
+      "program": "${workspaceFolder}\\adapter\\adapter.exe",
+      "workingDir": "${workspaceFolder}\\adapter",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "bridge debug",
+      "program": "${workspaceFolder}\\bridge\\bridge.exe",
+      "workingDir": "${workspaceFolder}\\bridge",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },
   ]
 }
