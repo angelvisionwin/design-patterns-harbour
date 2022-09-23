@@ -17,9 +17,9 @@
     {
       "type": "harbour-dbg",
       "request": "launch",
-      "name": "singleton debug",
-      "program": "${workspaceFolder}\\singleton\\singleton.exe",
-      "workingDir": "${workspaceFolder}\\singleton",
+      "name": "builder debug",
+      "program": "${workspaceFolder}\\builder\\builder.exe",
+      "workingDir": "${workspaceFolder}\\builder",
       "sourcePaths": [
         "${workspaceFolder}\\"
       ]
@@ -27,9 +27,19 @@
     {
       "type": "harbour-dbg",
       "request": "launch",
-      "name": "builder debug",
-      "program": "${workspaceFolder}\\builder\\builder.exe",
-      "workingDir": "${workspaceFolder}\\builder",
+      "name": "prototype debug",
+      "program": "${workspaceFolder}\\prototype\\prototype.exe",
+      "workingDir": "${workspaceFolder}\\prototype",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "singleton debug",
+      "program": "${workspaceFolder}\\singleton\\singleton.exe",
+      "workingDir": "${workspaceFolder}\\singleton",
       "sourcePaths": [
         "${workspaceFolder}\\"
       ]

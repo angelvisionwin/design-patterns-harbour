@@ -7,11 +7,13 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 - [Abstract Factory], objetos de familias de productos
 - [Builder], cómo se crea un objeto compuesto
 - [Factory Method], subclase del objeto que se ha instanciado
+- [Prototype], clase del objeto que se ha instanciado
 - [Singleton], la única instancia de una clase
 
 
 [Abstract Factory]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/abstract-factory
 [Builder]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/builder
 [Factory Method]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/factory-method
+[Prototype]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/prototype
 [Singleton]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/singleton
 
