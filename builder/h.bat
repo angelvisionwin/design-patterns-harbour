@@ -1,0 +1,1 @@
+hbmk2 %1 ..\debugger -b
