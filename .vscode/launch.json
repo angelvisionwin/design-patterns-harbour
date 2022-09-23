@@ -64,5 +64,16 @@
         "${workspaceFolder}\\"
       ]
     },
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "composite debug",
+      "program": "${workspaceFolder}\\composite\\composite.exe",
+      "workingDir": "${workspaceFolder}\\composite",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },
+  ]
   ]
 }

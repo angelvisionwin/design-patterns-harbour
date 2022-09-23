@@ -13,6 +13,7 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 #### Patrones estructurales
 - [Adapter], interface a un objeto
 - [Bridge], implementación de un objeto
+- [Composite], structure and composition of an object
 
 
 [Abstract Factory]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/abstract-factory
@@ -23,4 +24,5 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 
 [Adapter]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/adapter
 [Bridge]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/bridge
+[Composite]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/composite
 
