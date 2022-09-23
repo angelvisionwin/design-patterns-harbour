@@ -1,31 +1,38 @@
 {
-    // Use IntelliSense para saber los atributos posibles.
-    // Mantenga el puntero para ver las descripciones de los existentes atributos.
-    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "harbour-dbg",
-            "request": "launch",
-            "name": "builder debug",
-            "program": "${workspaceFolder}\\builder\\builder.exe",
-            "arguments":["PRG"],
-            "workingDir": "${workspaceFolder}\\builder",
-            "sourcePaths": [
-              "${workspaceFolder}\\builder"
-            ]
-          },
-          {
-            "type": "harbour-dbg",
-            "request": "launch",
-            "name": "abstractfactory debug",
-            "program": "${workspaceFolder}\\abstract-factory\\abstractfactory.exe",
-            "arguments":["PRG"],
-            "workingDir": "${workspaceFolder}\\abstract-factory",
-            "sourcePaths": [
-              "${workspaceFolder}\\abstract-factory"
-            ]
-          }
-          
-    ]
+  // Use IntelliSense para saber los atributos posibles.
+  // Mantenga el puntero para ver las descripciones de los existentes atributos.
+  // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "abstract-factory debug",
+      "program": "${workspaceFolder}\\abstract-factory\\abstract-factory.exe",
+      "workingDir": "${workspaceFolder}\\abstract-factory",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "singleton debug",
+      "program": "${workspaceFolder}\\singleton\\singleton.exe",
+      "workingDir": "${workspaceFolder}\\singleton",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "builder debug",
+      "program": "${workspaceFolder}\\builder\\builder.exe",
+      "workingDir": "${workspaceFolder}\\builder",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },
+  ]
 }
