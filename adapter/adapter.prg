@@ -1,5 +1,11 @@
 #include 'hbclass.ch'
 
+// En este ejemplo se está usando el modo más simplificado del hbclass
+// Cómo por ejemplo :
+//  - definir los métodos sin paréntesis
+//  - obviar el método new
+
+
 /*
  * Target
  * defines specific interface that Client uses
