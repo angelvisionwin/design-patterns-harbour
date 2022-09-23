@@ -10,10 +10,15 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 - [Prototype], clase del objeto que se ha instanciado
 - [Singleton], la única instancia de una clase
 
+#### Patrones estructurales
+- [Adapter], interface a un objeto
+
 
 [Abstract Factory]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/abstract-factory
 [Builder]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/builder
 [Factory Method]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/factory-method
 [Prototype]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/prototype
 [Singleton]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/singleton
+
+[Adapter]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/adapter
 
