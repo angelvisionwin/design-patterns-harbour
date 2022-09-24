@@ -17,6 +17,7 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 - [Decorator], responsabilidades de un objeto sin subclases
 - [Facade], interfaz a un subsistema más complejo
 - [Flyweight], almacena el coste de los objetos
+- [Proxy], cómo se accede a un objeto (su ubicación)
 
 
 [Abstract Factory]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/abstract-factory
@@ -31,3 +32,4 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 [Decorator]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/decorator
 [Facade]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/facade
 [Flyweight]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/flyweight
+[Proxy]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/proxy

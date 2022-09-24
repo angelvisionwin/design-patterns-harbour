@@ -104,5 +104,15 @@
         "${workspaceFolder}\\"
       ]
     },    
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "proxy debug",
+      "program": "${workspaceFolder}\\proxy\\proxy.exe",
+      "workingDir": "${workspaceFolder}\\proxy",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    }, 
   ]
 }
