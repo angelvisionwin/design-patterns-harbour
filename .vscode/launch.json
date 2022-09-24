@@ -74,6 +74,15 @@
         "${workspaceFolder}\\"
       ]
     },
-  ]
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "decorator debug",
+      "program": "${workspaceFolder}\\decorator\\decorator.exe",
+      "workingDir": "${workspaceFolder}\\decorator",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },    
   ]
 }
