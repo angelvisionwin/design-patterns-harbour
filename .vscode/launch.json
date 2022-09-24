@@ -84,5 +84,16 @@
         "${workspaceFolder}\\"
       ]
     },    
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "facade debug",
+      "program": "${workspaceFolder}\\facade\\facade.exe",
+      "workingDir": "${workspaceFolder}\\facade",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },    
+
   ]
 }
