@@ -94,6 +94,15 @@
         "${workspaceFolder}\\"
       ]
     },    
-
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "flyweight debug",
+      "program": "${workspaceFolder}\\flyweight\\flyweight.exe",
+      "workingDir": "${workspaceFolder}\\flyweight",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },    
   ]
 }
