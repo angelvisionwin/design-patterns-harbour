@@ -36,4 +36,4 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 [Facade]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/facade
 [Flyweight]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/flyweight
 [Proxy]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/proxy
-[Chain of Responsibility]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/chain-of-responsability
+[Chain of Responsibility]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/chainofresponsability
