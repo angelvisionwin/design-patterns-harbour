@@ -114,5 +114,15 @@
         "${workspaceFolder}\\"
       ]
     }, 
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "chainofresponsibility debug",
+      "program": "${workspaceFolder}\\chainofresponsibility\\chainofresponsibility.exe",
+      "workingDir": "${workspaceFolder}\\chainofresponsibility",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    }, 
   ]
 }
