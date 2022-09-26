@@ -124,5 +124,15 @@
         "${workspaceFolder}\\"
       ]
     }, 
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "command debug",
+      "program": "${workspaceFolder}\\command\\command.exe",
+      "workingDir": "${workspaceFolder}\\command",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },     
   ]
 }
