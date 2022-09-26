@@ -22,7 +22,7 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 #### Patrones de comportamiento
 - [Chain of Responsibility], objeto que puede cumplir una petición
 - [Command], cuándo y cómo se cumple una solicitud
-
+- [Interpreter], gramática e interpretación de una lengua
 
 [Abstract Factory]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/abstract-factory
 [Builder]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/builder
@@ -39,3 +39,4 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 [Proxy]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/proxy
 [Chain of Responsibility]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/chainofresponsibility
 [Command]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/command
+[Interpreter] : https://github.com/angelvisionwin/design-patterns-harbour/tree/main/interpreter

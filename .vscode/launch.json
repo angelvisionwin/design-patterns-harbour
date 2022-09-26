@@ -134,5 +134,15 @@
         "${workspaceFolder}\\"
       ]
     },     
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "interpreter debug",
+      "program": "${workspaceFolder}\\interpreter\\interpreter.exe",
+      "workingDir": "${workspaceFolder}\\interpreter",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },     
   ]
 }
