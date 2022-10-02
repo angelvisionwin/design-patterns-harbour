@@ -154,5 +154,15 @@
         "${workspaceFolder}\\"
       ]
     },     
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "memento debug",
+      "program": "${workspaceFolder}\\memento\\memento.exe",
+      "workingDir": "${workspaceFolder}\\memento",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },     
   ]
 }
