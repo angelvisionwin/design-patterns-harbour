@@ -125,5 +125,8 @@ function main()
 
     ? 'Actual state is ' + str( oOriginator:getState() ) + '.'
 
+    // Esto genera un error de violación de Scope por la cláusula FRIEND CLASS
+    Memento():new()
+
 
 return( 0 )
