@@ -35,7 +35,7 @@ CLASS ConcreteColleague FROM Colleague
     EXPORTED:
 
         METHOD new( oMediator, nID ) 
-        METHOD send( cMsg ) VIRTUAL
+        METHOD send( cMsg ) 
         METHOD receive( cMsg )
 
 
@@ -61,6 +61,7 @@ return( nil )
 METHOD send( cMsg ) CLASS ConcreteColleague
 
     ? 'Message ' + cMsg + ' sent by Colleague ' + str( ::nId )
+    ::oMediator:distribute( Self, cMsg )
 
 return( nil )    
 
@@ -117,7 +118,7 @@ METHOD distribute( oSender, cMsg ) CLASS ConcreteMediator
 
     for nI := 1 to len( ::aColleagues )
 
-        if ::aColleagues[ nI ]:getId() != ::oSender:getID()
+        if ::aColleagues[ nI ]:getId() != oSender:getID()
 
             ::aColleagues[ nI ]:receive( cMsg )
 
@@ -135,7 +136,7 @@ function main()
     Local oC2
     Local oC3
 
-    oMediator := Mediator():New()
+    oMediator := ConcreteMediator():New()
 
     oC1 := ConcreteColleague():new( oMediator, 1 )
     oC2 := ConcreteColleague():new( oMediator, 2 )
@@ -146,6 +147,6 @@ function main()
     oMediator:add( oC3 )
 
     oC1:send( 'Hi!' )
-    oC2:send( 'Hello!' )
+    oC3:send( 'Hello!' )
 
 return( 0 )    
