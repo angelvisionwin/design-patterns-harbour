@@ -144,5 +144,15 @@
         "${workspaceFolder}\\"
       ]
     },     
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "mediator debug",
+      "program": "${workspaceFolder}\\mediator\\mediator.exe",
+      "workingDir": "${workspaceFolder}\\mediator",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },     
   ]
 }
