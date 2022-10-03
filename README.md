@@ -25,6 +25,7 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 - [Interpreter], gramática e interpretación de una lengua
 - [Mediator], cómo y qué objetos interactúan entre sí
 - [Memento], qué información privada se almacena fuera de un objeto y cuándo
+- [Observer], cómo los objetos dependientes se mantienen actualizados
 
 [Abstract Factory]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/abstract-factory
 [Builder]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/builder
@@ -44,3 +45,4 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 [Interpreter]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/interpreter
 [Mediator]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/mediator
 [Memento]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/memento
+[Observer]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/observer

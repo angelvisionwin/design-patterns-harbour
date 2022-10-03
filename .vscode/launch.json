@@ -164,5 +164,15 @@
         "${workspaceFolder}\\"
       ]
     },     
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "observer debug",
+      "program": "${workspaceFolder}\\observer\\observer.exe",
+      "workingDir": "${workspaceFolder}\\observer",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },     
   ]
 }
