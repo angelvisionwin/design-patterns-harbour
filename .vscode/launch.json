@@ -174,5 +174,15 @@
         "${workspaceFolder}\\"
       ]
     },     
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "state debug",
+      "program": "${workspaceFolder}\\state\\state.exe",
+      "workingDir": "${workspaceFolder}\\state",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },     
   ]
 }
