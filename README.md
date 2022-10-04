@@ -1,7 +1,7 @@
 # Patrones de diseño con Harbour ( traduciendo de C++ sobre el trabajo de JakubVojvoda  )
 https://github.com/JakubVojvoda/design-patterns-cpp
 
-Los patrones de diseño de software son soluciones reutilizables generales a problemas que ocurren una y otra vez en un entorno de diseño orientado a objetos. No es un diseño terminado que pueda transformarse directamente en código fuente, sino que es una plantilla de cómo resolver el problema. Podemos clasificarlos por propósito en creacionales (resumir el proceso de creación de instancias), estructura (cómo se componen las clases y los objetos para formar estructuras más grandes) y patrones de comportamiento (la asignación de responsabilidades entre objetos).
+Los patrones de diseño de software son soluciones reutilizables generales a problemas que ocurren una y otra vez en un entorno de diseño orientado a objetos. No es un diseño terminado que pueda transformarse directamente en código fuente, sino que es una plantilla de cómo resolver el problema. Podemos clasificarlos por propósito en creacionales (resumen el proceso de creación de instancias), estructurales (cómo se componen las clases y los objetos para formar estructuras más grandes) y patrones de comportamiento (la asignación de responsabilidades entre objetos).
 
 #### Patrones creacionales
 - [Abstract Factory], objetos de familias de productos
@@ -13,7 +13,7 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 #### Patrones estructurales
 - [Adapter], interface a un objeto
 - [Bridge], implementación de un objeto
-- [Composite], structure and composition of an object
+- [Composite], estructura y composición de un objeto
 - [Decorator], responsabilidades de un objeto sin subclases
 - [Facade], interfaz a un subsistema más complejo
 - [Flyweight], almacena el coste de los objetos
