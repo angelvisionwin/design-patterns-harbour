@@ -27,6 +27,7 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 - [Memento], qué información privada se almacena fuera de un objeto y cuándo
 - [Observer], cómo los objetos dependientes se mantienen actualizados
 - [State], estado de un objeto
+- [Strategy], un algoritmo
 
 [Abstract Factory]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/abstract-factory
 [Builder]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/builder
@@ -48,3 +49,4 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 [Memento]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/memento
 [Observer]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/observer
 [State]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/state
+[Strategy]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/strategy

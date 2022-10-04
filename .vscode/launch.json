@@ -184,5 +184,15 @@
         "${workspaceFolder}\\"
       ]
     },     
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "strategy debug",
+      "program": "${workspaceFolder}\\strategy\\strategy.exe",
+      "workingDir": "${workspaceFolder}\\strategy",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },     
   ]
 }
