@@ -204,5 +204,15 @@
         "${workspaceFolder}\\"
       ]
     },  
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "visitor debug",
+      "program": "${workspaceFolder}\\visitor\\visitor.exe",
+      "workingDir": "${workspaceFolder}\\visitor",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },  
   ]
 }

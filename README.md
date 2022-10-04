@@ -29,6 +29,7 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 - [State], estado de un objeto
 - [Strategy], un algoritmo
 - [Template Method], pasos de un algoritmo
+- [Visitor], operaciones que se pueden aplicar a los objetos sin cambiar sus clases
 
 [Abstract Factory]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/abstract-factory
 [Builder]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/builder
@@ -52,3 +53,4 @@ Los patrones de diseño de software son soluciones reutilizables generales a pro
 [State]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/state
 [Strategy]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/strategy
 [Template Method]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/template-method
+[Visitor]: https://github.com/angelvisionwin/design-patterns-harbour/tree/main/visitor
