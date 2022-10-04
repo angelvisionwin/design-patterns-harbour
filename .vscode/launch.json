@@ -194,5 +194,15 @@
         "${workspaceFolder}\\"
       ]
     },     
+    {
+      "type": "harbour-dbg",
+      "request": "launch",
+      "name": "template-method debug",
+      "program": "${workspaceFolder}\\template-method\\template-method.exe",
+      "workingDir": "${workspaceFolder}\\template-method",
+      "sourcePaths": [
+        "${workspaceFolder}\\"
+      ]
+    },  
   ]
 }
